@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-admin {
+    height: 100vh;
+    background-color: #F5F5F5;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 70px 1fr 70px;
+    
+}
+.brand-link{
+    letter-spacing: 2px;
+}
+header,footer {
+    background-color:#DCD6F7 ;
+    grid-column: 1/span 2;
+}
+nav{
+    background-color: #3F72AF;
+}
+main {
+    background-color: #fff;
+}
+
+.logo-box i {
+    font-size: 4rem;
+}
+.logo-box a {
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: #fff;
+}
+.logo-box {
+    margin-bottom: 1rem;
+}
+
+nav ul li:hover{
+    cursor: pointer;
+    background-color: #6796d1;
+    border-radius: 5px;
+}
